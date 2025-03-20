@@ -142,6 +142,14 @@ return [
     | these features or you can even remove all of these if you need to.
     |
     */
+    'redirects' => [
+        'login' => '/',
+        'logout' => '/login',
+        'password-confirmation' => null,
+        'register' => '/',
+        'email-verification' => null,
+        'password-reset' => null,
+    ],
 
     'features' => [
         Features::registration(),
